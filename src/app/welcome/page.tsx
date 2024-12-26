@@ -1,5 +1,3 @@
-import Image from "next/image";
-import clsx from "clsx";
 import content from "@/styles/content.module.css";
 import { Metadata } from "next";
 
