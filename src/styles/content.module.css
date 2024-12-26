@@ -1,0 +1,117 @@
+.content {
+    flex: 1;
+    background: #111;
+    margin-left: 30px;
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-top: 0;
+    padding-left: 40px;
+}
+
+.title h1 {
+    font-size: 35px;
+    color: #fff;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.nav {
+    color: #adadad;
+    font-size: 14px;
+}
+
+.nav i {
+    margin: 0 5px;
+}
+
+.nav a {
+    color: #adadad;
+}
+
+.nav a:hover {
+    color: #c7c7c7;
+}
+
+.description h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #ececec;
+    position: relative;
+    padding-top: 20px;
+}
+
+.description h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    color: #e4e4e4;
+    position: relative;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.description p {
+    line-height: 1.5;
+    color: #d6d6d6;
+    font-size: 18px;
+}
+
+.description img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.description a {
+    color: #d6d6d6;
+    text-decoration: underline;
+}
+
+.description a:hover {
+    text-decoration: none;
+}
+
+.card {
+    background: #131313;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 4px solid #272727;
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 1110px) {
+    .content {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex: 1;
+        background: #111;
+        margin-left: 30px;
+        border-radius: 15px;
+        margin-left: 10px;
+        margin-top: 0;
+        padding-left: 10px;
+    }
+
+    .title h1 {
+        font-size: 32px;
+    }
+
+    .description h1 {
+        font-size: 22px;
+    }
+    
+    .description h2 {
+        font-size: 20px;
+    }
+    
+    .description p {
+        font-size: 15px;
+    }
+}
