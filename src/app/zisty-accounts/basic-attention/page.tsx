@@ -1,8 +1,5 @@
-import Image from "next/image";
-import clsx from "clsx";
 import content from "@/styles/content.module.css";
 import { Metadata } from "next";
-import profileScreen from "@/assets/screenshots/zisty-accounts/profile-screen.jpg";
 
 export const metadata: Metadata = {
     title: 'Basic Attention / Zisty Accounts',
